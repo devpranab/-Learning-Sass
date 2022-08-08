@@ -1,0 +1,23 @@
+@mixin margin($position, $unit){
+    margin-#{$position} : $unit + px;
+}
+
+.test{
+    @include margin(right, 20);
+}
+
+// .test {
+//     margin-right: 20px;
+// }
+
+@mixin set-icon($name){
+    .icon-#{$name}{
+        background-image: url("/icons/#{$name}.png");
+    }
+}
+
+@include set-icon(duck);
+
+// .icon-duck {
+//    background-image: url("/icons/duck.png");
+// }

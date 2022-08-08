@@ -1,0 +1,91 @@
+.menu {
+  height: 50px;
+  background-color: #1e201f;
+  text-align: center;
+  color: #fff;
+}
+
+.para1 {
+  color: red;
+}
+
+.para2 {
+  color: red;
+}
+
+nav ul {
+  margin: 10px;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  text-decoration: none;
+  display: block;
+  padding: 10px 20px;
+}
+
+.first-div {
+  height: 100px;
+  width: 100px;
+  background: #17a965;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  -webkit-box-shadow: 3px 3px 0 #39398e;
+  box-shadow: 3px 3px 0 #39398e;
+}
+
+.second-div {
+  height: 130px;
+  width: 130px;
+  background: #17a965;
+  border: 1px solid #fff;
+  border-radius: 60px;
+  -webkit-box-shadow: -3px -3px 0 #3c3cbf;
+  box-shadow: -3px -3px 0 #3c3cbf;
+}
+
+.third-div {
+  height: 160px;
+  width: 160px;
+  background: #17a965;
+  border: 1px solid #fff;
+  border-radius: 70px;
+  -webkit-box-shadow: 3px 3px 0 #2c2c4e;
+  box-shadow: 3px 3px 0 #2c2c4e;
+}
+
+.extends {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 40px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.first-box, .second-box, .third-box {
+  background: #13cee7;
+  height: 100px;
+  width: 200px;
+  border: 1px solid #fff;
+}
+
+.second-box {
+  background: #e90808;
+}
+
+.third-box {
+  background: #644343;
+}
+
+.footer {
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */

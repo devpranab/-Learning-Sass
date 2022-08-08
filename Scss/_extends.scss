@@ -1,0 +1,19 @@
+.extends{
+ display: flex;
+ padding: 40px;
+ justify-content: center;
+}
+.first-box{
+    background: rgb(19, 206, 231);
+    height: 100px;
+    width: 200px;
+    border: 1px solid #fff;
+}
+.second-box{
+    background: rgb(233, 8, 8);
+    @extend .first-box;
+}
+.third-box{
+    background: rgb(100, 67, 67);
+    @extend .first-box;
+}

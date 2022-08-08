@@ -1,0 +1,19 @@
+@import "menu";
+
+// Variables:
+$pColor: red;
+
+.para1{
+    color: $pColor;
+}
+.para2{
+    color: $pColor;
+}
+
+@import "list";
+@import "mixins";
+@import "extends";
+@import "footer";
+@import "operators";
+@import "interpolation";
+@import "color";

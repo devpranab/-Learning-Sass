@@ -1,0 +1,26 @@
+//<h5>Color Funtion :
+//lighten() darken() adjust-hue() saturate() desaturate() mix() transparentize()
+
+$base-color: pink;
+
+#oneDiv, #twoDive{
+    width: 400px;
+    height: 100px;
+    margin-bottom: 15px;
+    border: 1px solid #000;
+}
+#oneDiv{
+    background-color: $base-color;
+}
+#twoDive{
+    //background-color: darken($base-color,70);
+    //background-color: lighten($base-color,30);
+    //background-color: adjust-hue($base-color,80);
+    //background-color: saturate($base-color,90);
+    //background-color: desaturate($base-color,90);
+    //background-color: mix($base-color,red,50);
+    //background-color: transparentize($base-color,0.3);
+    background-color: red($base-color);
+    background-color: green($base-color);
+    background-color: hue($base-color);
+}

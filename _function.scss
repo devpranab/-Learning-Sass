@@ -1,0 +1,53 @@
+/*
+@function function-name($value){
+  @return ($value/2) + px;
+}
+
+.half-column{
+    width: function-name(1000);
+}
+
+//Ex - 
+$container-width: 1000;
+@function half($width){
+    @return ($width/2) + px;
+}
+
+@function one-third($width){
+    @return ($width/3) + px;
+}  
+
+half-width{
+    width: half($container-width);
+}  
+
+one-third-width{
+    width: one-third($container-width);
+} 
+
+// half-width{
+//     width: 500px;
+// } 
+// one-third-width{
+//     width: 400px;
+// }
+*/  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>List Funtion :</5>
+<h5>Selector Funtion :</5>
+<h5>Map Funtion :</5>
+<h5>Introspection Funtion :</5>
